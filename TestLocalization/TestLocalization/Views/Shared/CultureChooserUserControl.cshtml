@@ -1,0 +1,5 @@
+﻿<ul class="nav navbar-nav">
+    <li>@Html.ActionLink("Português", "ChangeCulture", "Home", new { lang = "pt-br", returnUrl = this.Request.RawUrl }, null)</li>
+    <li>@Html.ActionLink("Français", "ChangeCulture", "Home", new { lang = "fr-ca", returnUrl = this.Request.RawUrl }, null)</li>
+    <li>@Html.ActionLink("English", "ChangeCulture", "Home", new { lang = "en-gb", returnUrl = this.Request.RawUrl }, null)</li>
+</ul>
